@@ -450,6 +450,7 @@ line-height: 1.71;
 .logo-footer {
     color:var(--title-text-color-dark-bcgr);
     margin-bottom: 20px;
+    margin-right: 0;
 }
 .contact-item:not(:last-child) {
     margin-bottom: 9px;    
@@ -495,6 +496,10 @@ line-height: 1.71;
     color: var(--title-text-color-dark-bcgr);
     margin-bottom: 20px;
 }
+
+.subscribe-form {
+    display: flex;
+}
 .subscribe-wrapper {
     justify-self: right;
 }
@@ -509,6 +514,7 @@ line-height: 1.71;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 16px;
+    margin-right: 12px;
 }
 .subscribe-input::placeholder {
     font-size: 16px;
